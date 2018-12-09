@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.message {
+  position: relative;
+  text-align: left;
+  padding: 1.5em 0.5em 1em 0.5em;
+  margin: 1em 0;
+  background-color:#92b19e;
+  color: white;
+  border-radius: 0.3em;
+}
+
+.message li strong {
+  color: #404040;
+}
+
+.message .times {
+  position: absolute;
+  top: 0.3em;
+  right: 0.3em;
+  display: block;
+  cursor: pointer;
+}
+
+.message .times:hover {
+  color: black
+}
+
+input, button {
+  padding: 1em 0;
+  width: 25em;
+}
+
+label, input, button {
+  margin: 0.5em;
+}
